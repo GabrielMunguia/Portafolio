@@ -1,4 +1,4 @@
-import { About, Header } from "../components";
+import { About, Header, Projects } from "../components";
 import { Skills } from "../components/Skills";
 
 export const Home = () => {
@@ -7,6 +7,7 @@ export const Home = () => {
       <Header />
       <About/>  
       <Skills/>
+      <Projects/>
     </div>
   );
 };

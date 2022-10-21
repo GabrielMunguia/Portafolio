@@ -18,3 +18,11 @@ export const getTechnologies= async()=>{
     const data = await res.json();
     return data;
 }
+
+
+
+export const getProjects=async()=>{
+    const res = await fetch(`${BASE_URL}/projects`);
+    const data = await res.json();
+    return data;
+}

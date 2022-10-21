@@ -2,18 +2,21 @@
     background-image: url(../../img/elipseMedium.svg);
     background-repeat: no-repeat;    
     background-size: 40vw;
+    background-position-x:-30%;
     position: relative;
-    background-attachment: fixed;
-    padding: 4rem 2rem;
+    background-attachment: scroll;
+    padding: 0rem 2rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
+  justify-content: start;
     align-items: center;
+    min-height: 90vh;
+ 
   
 }
 .container::after{
-    content: "/";
+    content: "";
     position: absolute;
     top: 0;
     right: 0em;
@@ -21,7 +24,8 @@
     height: 100%;
     background-image: url(../../img/elipseDark.svg);
     background-repeat: no-repeat;    
-    background-size: 50vw;
+    background-size: 40vw;
+    background-position-y: 3rem;
     z-index: -1;
 }
 .container_items{

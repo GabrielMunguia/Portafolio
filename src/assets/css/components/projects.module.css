@@ -1,0 +1,30 @@
+.container{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 40vw;
+    position: relative;
+    
+}
+.container::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0em;
+    width: 30em;
+    height: 100%;
+    background-image: url(../../img/elipseDark.svg);
+    background-repeat: no-repeat;    
+    background-size: 80vw;
+  
+    z-index: -1;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+     margin-bottom: 4rem;
+     position: relative;
+    
+}

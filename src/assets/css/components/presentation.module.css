@@ -4,15 +4,25 @@
   padding: 13rem 5rem;
   position: relative;
   overflow: hidden;
-
-  
 }
 
 .title {
   position: absolute;
   font-size: 6rem;
   font-weight: bolder;
+
 }
+.title span{
+  border-radius: 2px;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+
+
 .subtitle {
   font-size: 4rem;
   color: rgba(187, 10, 187, 0.945);
@@ -31,14 +41,19 @@
   position: relative;
   border-radius: 100%;
   transition: 0.5s;
+  animation: avatar_animation 3s infinite alternate;
 }
-.avatar:hover {
-  transform: scale(1.1) rotate(2deg);
 
-  transition: 0.5s;
+@keyframes avatar_animation {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
 
-
+  to {
+    transform: scale(1.1) rotate(2deg);
+  }
 }
+
 
 .stars {
   width: 2px;
