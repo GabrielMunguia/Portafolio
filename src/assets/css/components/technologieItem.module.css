@@ -1,0 +1,33 @@
+.container{
+    width: 7em;
+    height: 7em;
+    padding: 1rem;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.container:hover{
+    transform: scale(1.1) translateY(-0.5rem);
+    box-shadow: 0 0 20px 0 rgb(218, 15, 174);
+    transition: all 0.5s;
+}
+.title{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    text-align: center;
+    font-weight: bold;
+}
+.img{
+    position: relative;
+    width: 50%;
+    height: 50%;
+   
+}

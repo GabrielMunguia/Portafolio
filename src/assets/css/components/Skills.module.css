@@ -1,0 +1,61 @@
+.container{
+    background-image: url(../../img/elipseMedium.svg);
+    background-repeat: no-repeat;    
+    background-size: 40vw;
+    position: relative;
+    background-attachment: fixed;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.container::after{
+    content: "/";
+    position: absolute;
+    top: 0;
+    right: 0em;
+    width: 30em;
+    height: 100%;
+    background-image: url(../../img/elipseDark.svg);
+    background-repeat: no-repeat;    
+    background-size: 50vw;
+    z-index: -1;
+}
+.container_items{
+    margin-left: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start ;
+    align-items: center;
+    width: 100%;
+}
+
+.item{
+    margin-right: 5em;
+    margin-bottom: 4em;
+  
+
+ 
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+     margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 500px) {
+    .container_items{
+       justify-content: center;
+    
+    }
+    .item{
+        margin:1em;
+      
+    }
+
+}

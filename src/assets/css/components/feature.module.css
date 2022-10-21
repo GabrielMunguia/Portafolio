@@ -1,0 +1,36 @@
+.container{
+    width: 15em;
+    height: 20em;
+    padding: 1rem;
+    border: 4px solid rgb(51,5,78);
+    box-shadow: 0 0 10px rgb(146, 146, 146);
+    background: rgb(51,5,78);
+    background: radial-gradient(circle, rgba(51,5,78,1) 0%, rgba(5,1,6,1) 48%, rgba(0,0,0,1) 100%);
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.container:hover{
+    transform: scale(1.04) translateY(-0.5rem);
+    transition: 0.5s;
+}
+.image{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+.text{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    text-align: center;
+    font-weight: bold;
+}

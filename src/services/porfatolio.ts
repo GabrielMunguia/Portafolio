@@ -6,3 +6,15 @@ export const getPresentation=async()=>{
     return data;
 }
 
+
+export const getCharacteristics=async()=>{
+    const res = await fetch(`${BASE_URL}/about`);
+    const data = await res.json();
+    return data;
+}
+
+export const getTechnologies= async()=>{
+    const res = await fetch(`${BASE_URL}/technologies`);
+    const data = await res.json();
+    return data;
+}

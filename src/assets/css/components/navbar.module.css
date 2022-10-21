@@ -1,7 +1,6 @@
 .navbar {
   position: fixed;
-
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
   color: #fff;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -13,11 +12,17 @@
   background-color: #000;
   backdrop-filter: blur(100%);
   opacity: 0,55;
+  transition: 0.5s ease-in-out;
 }
 .navbar_name {
   font-size: 1.2rem;
   font-weight: 400;
   margin-left: 3em;
+}
+.navbar_show{
+  padding: 1.6rem 0rem;
+  border-bottom: 1px solid #fff;
+  transition: 0.5s ease-in-out;
 }
 
 .navbar_occupation {

@@ -1,7 +1,11 @@
 .presentation {
   color: #fff;
+  min-height: 56vh;
   padding: 13rem 5rem;
   position: relative;
+  overflow: hidden;
+
+  
 }
 
 .title {
@@ -340,7 +344,7 @@
 
     
     .title{
-        font-size: 1.8em;
+        font-size: 2em;
     }
     .title>span {
         font-size: 1.3em;
